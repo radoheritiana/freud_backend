@@ -1,5 +1,5 @@
 """
-WSGI config for defang_sample project.
+WSGI config for zahageek_back project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'defang_sample.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'zahageek_back.settings')
 
 application = get_wsgi_application()
